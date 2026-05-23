@@ -4,9 +4,7 @@ def is_palindrome(s):
     res = tolower
     rev = tolower[::-1]
 
-
     return res == rev 
-
 
 s= "A man a plan a canal Panma"
 res = is_palindrome(s)
