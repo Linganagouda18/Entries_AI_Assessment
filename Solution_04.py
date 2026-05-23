@@ -13,10 +13,7 @@ def findsum(arr, target):
     return [list(pair) for pair in res]         
 
 
-arr=[1, 1, 2, 3]
-target=4
-
-print(findsum(arr, target))
+print(findsum([1, 1, 2, 3], 4))
 print(findsum([3,3,3], 6))
 print(findsum([1,1,2,3], 4))
 print(findsum([1,2,3], 10))

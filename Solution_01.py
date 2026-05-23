@@ -10,6 +10,9 @@ arr = [3, 1, 4, 1, 5, 9, 2, 6]
 # arr = [10, 10, 10]
 # arr = [5, 3]
 # arr = [-1, -2, -3]
-res = largest(arr)
-print(res)
+print(largest([3, 1, 4, 1, 5, 9, 2, 6]))
+print(largest([10, 10, 10]))
+print(largest([5, 3]))
+print(largest([-1, -2, -3]))
+
 
